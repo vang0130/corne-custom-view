@@ -1,50 +1,49 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, Ctrl, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, lower, ␣, ⏎, raise, Alt]
-  lower:
+  Base:
   - ↹
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Q
+  - W
+  - F
+  - P
+  - G
+  - J
+  - L
+  - U
+  - Y
+  - ;
   - ⌫
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctrl
+  - A
+  - R
+  - S
+  - T
+  - D
+  - H
+  - N
+  - E
+  - I
+  - O
+  - ''''
   - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui
-  - {type: held}
-  - ␣
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - K
+  - M
+  - ','
+  - .
+  - /
   - ⏎
-  - {t: ▽, type: trans}
+  - Gui
+  - Lower
+  - {t: Esc, h: Ctl+Sft+AGr+ Gui}
+  - ␣
+  - Raise
   - Alt
-  raise:
+  Lower:
   - ↹
   - '!'
   - '@'
@@ -58,19 +57,19 @@ layers:
   - )
   - ⌫
   - Ctrl
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
   - {t: ▽, type: trans}
-  - '&mkp RCLK'
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - '['
   - ']'
   - \
-  - '`'
-  - Shift
   - {t: ▽, type: trans}
+  - Shift
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,10 +79,53 @@ layers:
   - '{'
   - '}'
   - '|'
-  - '~'
-  - Gui
-  - '&studio_unlock'
-  - ␣
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - Gui
+  - {type: held}
+  - {t: Esc, h: Ctl+Sft+AGr+ Gui}
+  - ␣
+  - Raise
+  - Alt
+  Raise:
+  - ↹
+  - BRI DN
+  - BRI UP
+  - ⏮️
+  - ⏯
+  - ⏭️
+  - {t: ▽, type: trans}
+  - MUTE
+  - Vol Down
+  - Vol Up
+  - {t: ▽, type: trans}
+  - ⌫
+  - Ctrl
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - Shift
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - ↑
+  - →
+  - ⏎
+  - Gui
+  - Lower
+  - {t: Esc, h: Ctl+Sft+AGr+ Gui}
+  - ␣
+  - {type: held}
   - Alt
